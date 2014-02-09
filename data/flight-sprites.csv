@@ -1,0 +1,367 @@
+"number","name","comments","dominions_version"
+-1,"<Disabled>",,4.03
+0,"Nothing",,4.03
+1,"Explosion with flames",,4.03
+8,"Fireball landing and exploding",,4.03
+13,"Frostball landing and exploding",,4.03
+20,"Large Column of lightning bolts","With last 4 frames fading out",4.03
+29,"Column of lightning bolt fading out",,4.03
+39,"Small Black and Grey Sphere Expanding into a Large Ring","Possibly Smoke?",4.03
+43,"Large Blue Rain Drops",,4.03
+49,"Greenish-black Expanding Cloud",,4.03
+55,"Yellow Centered Orange Sphere Expanding",,4.03
+60,"Multi colored swirl",,4.03
+69,"Multi colored Expanding Ring",,4.03
+77,"Small Ball of Flame Landing",,4.03
+81,"Strange Red Splotch Landing",,4.03
+85,"Multiple balls of flame landing",,4.03
+95,"Tiny Fiery projectile",,4.03
+98,"Blue ball","Possibly iceball?",4.03
+99,"Slingstone",,4.03
+100,"Boulder (Large)",,4.03
+101,"Boulder (Huge)",,4.03
+102,"Rocks x3","Best to use 102 1",4.03
+106,"Earth Covered Rocks x3","Best to use 106 1",4.03
+109,"Arrow",,4.03
+110,"Javelin",,4.03
+111,"Sling stone",,4.03
+112,"Red Fire Cloud",,4.03
+113,"Green Fire Cloud",,4.03
+114,"Blue Flame Boulder (Huge)","Tail does not follow flysprite path accurately / Best to use 114 11 if range is very short; 114 4 otherwise",4.03
+121,"Blue Flame Boulder Striking Earth (Huge) ",,4.03
+125,"Tangle Vines","Best to use 125 4",4.03
+129,"Red Splotch","Possibly Blood? / Best to use 129 4",4.03
+133,"Fire swirl",,4.03
+137,"Frost swirl",,4.03
+141,"Multi colored swirl",,4.03
+149,"Nothing","Best to use if you don't want a sprite, but want a delay before the weapon hits",4.03
+153,"Small Lightgreen meteor","Tail does not follow flysprite path accurately / Best to use 153 7 if range is very short; 153 4 otherwise",4.03
+157,"Small Lightgreen meteor striking",,4.03
+160,"Sphere of Flames",,4.03
+165,"Ghost Grip Hand",,4.03
+168,"Large Blue Rain Drops","Does not follow flysprite path accurately",4.03
+177,"Poison (Large Green Teardrop)","Does not follow flysprite path accurately",4.03
+185,"Small Lightgrey Smoke Clouds",,4.03
+189,"Fire Net",,4.03
+193,"Small Green/White Flame (Teardrop shaped)","Similar to banefire / Best to use 193 9 for the varying effect",4.03
+194,"Medium Green/White Flame (Teardrop shaped)",,4.03
+195,"Large Green/White Flame (Teardrop shaped)",,4.03
+196,"Huge Green/White Flame which dissipates (Teardrop shaped)",,4.03
+202,"Small Black Smoke Clouds",,4.03
+206,"Fire Splotch",,4.03
+210,"Lightning bolt",,4.03
+214,"Poison Spit",,4.03
+218,"Large multi-colored puffy cloud",,4.03
+222,"Blue-white 4-pointed Flare of light (Looks like a sparkling star)",,4.03
+227,"Purplish-red 4-pointed Flare of light (Looks like a sparkling star)",,4.03
+232,"Small Purplish-black Smoke Clouds",,4.03
+236,"Large Thick Purple Smoke Cloud",,4.03
+240,"Small Reddish-pink meteors","With later anim striking / Tail does not follow flysprite path accurately",4.03
+250,"Large Thick Lightgrey Smoke Cloud which dissipates","Last 5 sprites are it dissipating / Best to use 250 4 for long range",4.03
+259,"Reddish-Pink Smoke Cloud growing and dissipating",,4.03
+264,"Oddly Shaped Red and Yellow Smoke Cloud which starts out Pink  ",,4.03
+270,"Brown Earth Mud Puddles","Looks like Earth Bind/Meld family of spells",4.03
+274,"Bane fire arrow",,4.03
+278,"Blue-tinged Green Splotch which grows and dissipates",,4.03
+289,"Purple Flame (Teardrop shaped)",,4.03
+297,"Black-tinged Purple Splotch which grows and dissipates",,4.03
+304,"Blade wind missile",,4.03
+308,"Large Arrow","Possibly a javelin?",4.03
+309,"Blue-Purple Net","Possibly an electric field?",4.03
+313,"Sticky goo (Greenish-black Splotch)",,4.03
+317,"Yellow to Orange Square/Cylinder",,4.03
+325,"Purple to White Square/Cylinder which expands out","Last 4 frames are expansion",4.03
+333,"Yellow to Orange Square/Cylinder expanded",,4.03
+337,"Diagonal line ",,4.03
+338,"Small Lavender Splotch",,4.03
+339,"Evil death thingy (Decay animation)",,4.03
+342,"Flames Burning","Does not follow flysprite path accurately",4.03
+346,"Purple Flames Burning","Does not follow flysprite path accurately",4.03
+350,"Fire arrow",,4.03
+354,"Fire javelin",,4.03
+358,"Fire sling stone",,4.03
+362,"Fire boulder",,4.03
+366,"Small wide purple and cyan patterned rectangle",,4.03
+370,"Small wide white and cyan patterned rectangle",,4.03
+371,"Small Lightblue splotch","Possibly iceball/waterball/neifel fireball?",4.03
+379,"Large Column of lightning bolts","Last 4 frames show fading effect",4.03
+387,"Small wide Lightyellow rectangle",,4.03
+391,"Small wide rainbow patterned rectangle",,4.03
+395,"Elf Shot",,4.03
+396,"<Undocumented Sprite>",,4.03
+399,"Expanding Yellow Green Red & Blue Reticle",,4.03
+403,"Blow gun needle",,4.03
+404,"Green gooey missile",,4.03
+407,"Green gooey splotch dissipating",,4.03
+411,"Throwing axe",,4.03
+415,"Net",,4.03
+416,"Web",,4.03
+419,"Vine arrow",,4.03
+420,"Arrow",,4.03
+421,"Small ball of flame",,4.03
+424,"<Undocumented Sprite>",,4.03
+426,"Arrow shaped fiery missile",,4.03
+435,"<Undocumented Sprite>",,4.03
+441,"<Undocumented Sprite>",,4.03
+10000,"Nothing",,4.03
+10001,"blinking light",,4.03
+10002,"white falling mist",,4.03
+10003,"red falling mist",,4.03
+10004,"green falling mist",,4.03
+10005,"blue falling mist",,4.03
+10006,"light red falling mist",,4.03
+10007,"Light green falling mist",,4.03
+10008,"Light blue falling mist",,4.03
+10009,"purple falling mist",,4.03
+10010,"yellow falling mist",,4.03
+10011,"orange falling mist",,4.03
+10012,"cyan falling mist",,4.03
+10013,"greenish falling mist",,4.03
+10014,"orangish falling mist",,4.03
+10015,"falling blue sparkling balls",,4.03
+10016,"falling cyan colors",,4.03
+10017,"falling green colors",,4.03
+10018,"falling grey mist",,4.03
+10019,"falling bile",,4.03
+10020,"falling black smoke",,4.03
+10021,"Falling shower of colorful light",,4.03
+10022,"Falling shower of white",,4.03
+10023,"Falling shower of red",,4.03
+10024,"Falling shower of green",,4.03
+10025,"Falling shower of blue",,4.03
+10026,"Falling shower of light red",,4.03
+10027,"Falling shower of light green",,4.03
+10028,"Falling shower of light blue",,4.03
+10029,"Falling shower of purple",,4.03
+10030,"Falling shower of yellow",,4.03
+10031,"Falling shower of orange",,4.03
+10032,"Falling shower of cyan",,4.03
+10033,"Falling shower of greenish",,4.03
+10034,"Falling shower of orangish",,4.03
+10035,"Falling shower of white balls",,4.03
+10036,"Falling sparkling orangish light",,4.03
+10037,"Falling orangish light",,4.03
+10038,"Falling shower of grey mist",,4.03
+10039,"falling shower of bile",,4.03
+10040,"Shower of black smoke",,4.03
+10041,"Rising colorful mist",,4.03
+10042,"Rising white mist",,4.03
+10043,"Rising red mist",,4.03
+10044,"Rising green mist",,4.03
+10045,"Rising blue mist",,4.03
+10046,"Rising light red mist",,4.03
+10047,"Rising light green mist",,4.03
+10048,"Rising light blue mist",,4.03
+10049,"Rising purple mist",,4.03
+10050,"Rising yellow mist",,4.03
+10051,"Rising orange mist",,4.03
+10052,"Rising cyan mist",,4.03
+10053,"Rising orangish mist",,4.03
+10054,"Rising light blue mist",,4.03
+10055,"Rising green mist",,4.03
+10056,"Rising white steamy mist",,4.03
+10057,"Rising black mist",,4.03
+10058,"Rising yellow transparent mist",,4.03
+10059,"Rising bile",,4.03
+10060,"Rising black smoke",,4.03
+10061,"Long tailed missile of colorful light",,4.03
+10062,"Long tailed missile of white",,4.03
+10063,"Long tailed missile of red",,4.03
+10064,"Long tailed missile of green",,4.03
+10065,"Long tailed missile of blue",,4.03
+10066,"Long tailed missile of light red",,4.03
+10067,"Long tailed missile of light green",,4.03
+10068,"Long tailed missile of light blue",,4.03
+10069,"Long tailed missile of purple",,4.03
+10070,"Long tailed missile of yellow",,4.03
+10071,"Long tailed missile of orange",,4.03
+10072,"Long tailed missile of cyan",,4.03
+10073,"Long tailed missile of greenish",,4.03
+10074,"Long tailed missile of orangish",,4.03
+10075,"Long tailed missile of shiny white",,4.03
+10076,"Long tailed missile of shiny white",,4.03
+10077,"Long tailed missile of shiny white",,4.03
+10078,"Long tailed missile of dark blue",,4.03
+10079,"Long tailed missile of bile",,4.03
+10080,"Long tailed missile of black smoke",,4.03
+10081,"Medium tailed missile of colorful lights",,4.03
+10082,"Medium tailed missile of white",,4.03
+10083,"Medium tailed missile of red",,4.03
+10084,"Medium tailed missile of green",,4.03
+10085,"Medium tailed missile of blue",,4.03
+10086,"Medium tailed missile of light red",,4.03
+10087,"Medium tailed missile of light green",,4.03
+10088,"Medium tailed missile of light blue",,4.03
+10089,"Medium tailed missile of purple",,4.03
+10090,"Medium tailed missile of yellow",,4.03
+10091,"Medium tailed missile of orange",,4.03
+10092,"Medium tailed missile of cyan",,4.03
+10093,"Medium tailed missile of greenish",,4.03
+10094,"Medium tailed missile of orangish",,4.03
+10095,"Medium tailed missile of blinking lights",,4.03
+10096,"Medium tailed missile of blinking lights",,4.03
+10097,"Medium tailed missile of flamish orange",,4.03
+10098,"Medium tailed missile of dark blue",,4.03
+10099,"Medium tailed missile of bile",,4.03
+10100,"Medium tailed missile of black smoke",,4.03
+10101,"Large colorful aura",,4.03
+10102,"Large white aura",,4.03
+10103,"Large red aura",,4.03
+10104,"Large green aura",,4.03
+10105,"Large blue  aura",,4.03
+10106,"Large Light red aura",,4.03
+10107,"Large light green aura",,4.03
+10108,"Large light blue aura",,4.03
+10109,"Large white aura",,4.03
+10110,"Large white aura",,4.03
+10111,"Large white aura",,4.03
+10112,"Large Cyan aura",,4.03
+10113,"Large orange  aura",,4.03
+10114,"Large green aura",,4.03
+10115,"Large blood aura",,4.03
+10116,"Large white aura",,4.03
+10117,"Large white aura",,4.03
+10118,"Large grey aura",,4.03
+10119,"Dark blue aura",,4.03
+10120,"Large black aura",,4.03
+10121,"colorful mist",,4.03
+10122,"Spreading white mist",,4.03
+10123,"Spreading red mist",,4.03
+10124,"Spreading green mist",,4.03
+10125,"Spreading blue mist",,4.03
+10126,"Spreading light red mist",,4.03
+10127,"Spreading light green mist",,4.03
+10128,"Spreading light blue mist",,4.03
+10129,"Spreading purple mist",,4.03
+10130,"Spreading yellow mist",,4.03
+10131,"Spreading orange mist",,4.03
+10132,"Spreading cyan mist",,4.03
+10133,"Spreading greenish mist",,4.03
+10134,"Spreading cyan mist",,4.03
+10135,"Spreading XX mist",,4.03
+10136,"Spreading XX mist",,4.03
+10137,"Spreading steamy mist",,4.03
+10138,"Spreading grey mist",,4.03
+10139,"Spreading bile mist",,4.03
+10140,"Spreading black smoke",,4.03
+10141,"Rising purple mist",,4.03
+10142,"Rising purple mist (Smaller)","Same as 10141, but less mist",4.03
+10143,"Long tail of small smoke balls",,4.03
+10144,"Small and fast blood aura",,4.03
+10145,"Falling light blue rain of light",,4.03
+10146,"Short tail of small orange balls",,4.03
+10147,"Short tail of small black smoke balls",,4.03
+10148,"Short tail of small light green balls",,4.03
+10149,"Short tail of small black smoke balls",,4.03
+10150,"Massive aura of exploding yellow",,4.03
+10151,"Yellow comet of light",,4.03
+10152,"Large and long transparent blue missile",,4.03
+10153,"Small cylinder of blue expanding light",,4.03
+10154,"Small cylinder of expanding black smoke",,4.03
+10155,"Very, very few smoke, almost nothing",,4.03
+10156,"Small explosion of bile",,4.03
+10157,"Some blinky white spots (cold aura)",,4.03
+10158,"minor grey smoke",,4.03
+10159,"Small explosion of bile",,4.03
+10160,"Some rising grey smoke",,4.03
+10161,"Falling cyan balls",,4.03
+10162,"Spreading orange, flamish mist",,4.03
+10163,"small blood explosion",,4.03
+10164,"Sparkly green balls",,4.03
+10165,"Small explosion of yellow light",,4.03
+10166,"Massive and fast white aura",,4.03
+10167,"Cylinder of red light",,4.03
+10168,"Cylinder of brown, mudgy, balls",,4.03
+10169,"Aura of Grey light",,4.03
+10170,"Cylinder of blue light",,4.03
+10171,"Large cylinder of purple light",,4.03
+10172,"Shower of Blood",,4.03
+10173,"Rising bloody mist – Evil",,4.03
+10174,"Rising bloody mist – Evil (Smaller)","Less mist than 10173",4.03
+10175,"Shower of Flames",,4.03
+10176,"Shower of flames",,4.03
+10177,"Exploding light green bile",,4.03
+10178,"Exploding light green bile (Larger)","More than in 10177",4.03
+10179,"Long tail of small green balls",,4.03
+10180,"Large shower of yellowish flames",,4.03
+10181,"Falling blue rain of light",,4.03
+10182,"very small tail of small orange balls",,4.03
+10183,"Massive yellowish aura",,4.03
+10184,"Rising green transparent mist",,4.03
+10185,"Rising white mist",,4.03
+10186,"Small and quick explosion of white light",,4.03
+10187,"Sparkly yellow mist",,4.03
+10188,"Some ”blinking” black smoke",,4.03
+10189,"Rising mist of brown mass","Dirt?",4.03
+10190,"Falling ball of white light",,4.03
+10191,"Exploding ball of light",,4.03
+10192,"Some rising brown mass (Smaller)","less than in 10189",4.03
+10193,"Rising balls of smoke",,4.03
+10194,"Some rising light brown mass",,4.03
+10195,"Quickly exploding ball of smoke",,4.03
+10196,"Rising ball of blue light",,4.03
+10197,"Quickly rising ball of purple light",,4.03
+10198,"Rising mist of black smoke",,4.03
+10199,"Spooky explosion of black smoke",,4.03
+10200,"Cylinder of black smoke",,4.03
+10201,"Rising cylinder of white light",,4.03
+10202,"Small line of flame","can't be seen from behing size 2 caster",4.03
+10203,"orangish sparkly balls",,4.03
+10204,"Cylinder of light purple light",,4.03
+10205,"Cylinder of light orangish light",,4.03
+10206,"Line of blue light",,4.03
+10207,"Rising collection of sparkling colorful balls",,4.03
+10208,"Rising column of blue light",,4.03
+10209,"explosion of grey balls",,4.03
+10210,"Rising colorful mist",,4.03
+10211,"explosion of small dark blue ball",,4.03
+10212,"some dark blue smoke",,4.03
+10213,"Falling sparkling light green mist",,4.03
+10214,"Explosion of smoke",,4.03
+10215,"Cyan aura",,4.03
+10216,"Rising cylinder of blood",,4.03
+10217,"Aura of white",,4.03
+10218,"some white mist",,4.03
+10219,"3 Lighting bolts on the caster",,4.03
+10220,"Pillar of Yellow light",,4.03
+10221,"Bloody aura",,4.03
+10222,"Explosion of very dark green ball of gas",,4.03
+10223,"Spreading very dark green mist",,4.03
+10224,"Rising circle of blue light",,4.03
+10225,"Rising cylinder of light transparent purple",,4.03
+10226,"Rising circles of blue light",,4.03
+10227,"some black mist",,4.03
+10228,"some white mist","lot like cold aura",4.03
+10229,"small shower of white light",,4.03
+10230,"Shower of blue light",,4.03
+10231,"Rising sparkly light green mist",,4.03
+10232,"some minor bloodlike smoke",,4.03
+10233,"Line of mist",,4.03
+10234,"Rising dark purple mist",,4.03
+10235,"Very few black transparent smoke",,4.03
+10236,"Falling shiny white transparent mist",,4.03
+10237,"Some rising very light green mist",,4.03
+10238,"Comet of Flaming orange (Flare)",,4.03
+10239,"Rising cylinder of very light purple light",,4.03
+10240,"Rising cylinder of light green light",,4.03
+10241,"Thick Lighting (Thunderstrike)",,4.03
+10242,"Massive pillar of orange light",,4.03
+10243,"Thin pillar of white light",,4.03
+10244,"Thin forged lighting bolts (Orb Lighting)",,4.03
+10245,"Very thin light blue pillar of small balls",,4.03
+10246,"Thin forked light green pillars","like light green lighting bolts",4.03
+10247,"Thick forked light green pillars","like light green lighting bolts",4.03
+10248,"Some falling orange balls of light",,4.03
+10249,"Small falling ball of light",,4.03
+10250,"Pillar of Pinkish Light (?)",,4.03
+10251,"Massive geyser of light","like astral geyser",4.03
+10252,"Massive geyser of light red light",,4.03
+10253,"Massive geyser of purple thick pillars",,4.03
+10254,"Two green pillars of light, forming a vee",,4.03
+10255,"Explosion of purple and light red",,4.03
+10256,"Small tailed light green missile (Slime)",,4.03
+10257,"Few rising balls of smoke",,4.03
+10258,"Few rising balls of smoke",,4.03
+10259,"Few rising balls of smoke",,4.03
+10260,"<Undocumented Sprite>",,4.03
+10262,"<Undocumented Sprite>",,4.03

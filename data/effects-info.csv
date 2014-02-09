@@ -1,0 +1,104 @@
+"number","name","dominions_version"
+0,"Nothing",4.03
+1,"Summon",4.03
+2,"Damage {Wpn: #dt_normal}",4.03
+3,"Sleep/Stun {Wpn: #dt_stun}",4.03
+4,"Cause Fear (Type I)",4.03
+7,"Poison (Mortal) {Wpn: #dt_poison}",4.03
+8,"Remove Fatigue (?)",4.03
+10,"Bless/Buff (Type I)",4.03
+11,"Special Attack",4.03
+13,"Heal",4.03
+15,"Return Home",4.03
+19,"Teleport",4.03
+20,"Blink",4.03
+21,"Summon Commander",4.03
+22,"Fate of Oedipus",4.03
+23,"Bless/Buff (Type II)",4.03
+24,"Damage vs Demon/Undead {Wpn: #dt_holy}",4.03
+25,"Wish",4.03
+26,"Ritual of Rebirth",4.03
+27,"Magic Duel",4.03
+28,"Control/Possess",4.03
+29,"Charm",4.03
+30,"Dispel",4.03
+31,"Call Horror",4.03
+32,"Damage vs Large Creatures {Wpn: #dt_large}",4.03
+33,"Damage vs Small Creatures {Wpn: #dt_small}",4.03
+35,"Cross Breeding",4.03
+37,"Remote Summon (Type I)",4.03
+38,"Remote Summon (Type II)",4.03
+39,"Gift of Reason",4.03
+40,"Seeking Arrow",4.03
+41,"Affect Half of Army in Province",4.03
+42,"Affect Province with Anonymous Event",4.03
+43,"Summon Neutral",4.03
+44,"Transformation (?)",4.03
+46,"Poison (Stun)",4.03
+48,"Remote Site Search",4.03
+49,"Wind Ride",4.03
+50,"Remote Summon (Type III)",4.03
+53,"Vengeance of the Dead",4.03
+54,"Polymorph",4.03
+57,"Mind Hunt",4.03
+62,"Manifestation",4.03
+63,"Remote Fort Construction",4.03
+64,"Leprosy",4.03
+66,"Paralyze {Wpn: #dt_paralyze}",4.03
+67,"Weaken {Wpn: #dt_weakness}",4.03
+68,"Summon Animals",4.03
+70,"Crumble",4.03
+72,"Life Overload Damage (?)",4.03
+73,"Damage vs Magic Beings {Wpn: #dt_magic}",4.03
+74,"Unlife Damage (?)",4.03
+75,"Raven Feast",4.03
+76,"Tartarian Gate",4.03
+77,"Astral Travel",4.03
+79,"Faery Trod",4.03
+80,"Gateway",4.03
+81,"Enchant Battlefield | Enchant World",4.03
+82,"Enchant Province (Type I)",4.03
+84,"Enchant Province (Type II)",4.03
+85,"Scry",4.03
+86,"Affect Province Dominion (?)",4.03
+89,"Ritual Summon Unique (Type I)",4.03
+90,"Stygian Paths",4.03
+91,"Affect Random Enemies in Province (?)",4.03
+92,"Imprint Souls",4.03
+93,"Ritual Summon Unique (Type II)",4.03
+94,"Beckoning",4.03
+95,"Cloud Trapeze",4.03
+98,"Winged Monkeys",4.03
+96,"Shatter {Wpn: #dt_constructonly}",4.03
+97,"Cause Fear (Type II)",4.03
+99,"Petrify",4.03
+100,"Terrain-Specific Ritual Summon",4.03
+101,"Rejuvenate (?) | Age",4.03
+102,"Horror Seed",4.03
+103,"Drain Life {Wpn: #dt_drain}",4.03
+104,"Drain Life via Weapon (?) {Wpn: #dt_weapondrain}",4.03
+105,"Disbelieve",4.03
+106,"Damage Demon (?)",4.03
+107,"Damage Demon {Wpn: #dt_demon}",4.03
+108,"Planeshift Other",4.03
+109,"Capped Damage {Wpn: #dt_cap}",4.03
+110,"Dreams of R'lyeh",4.03
+111,"Internal Alchemy",4.03
+112,"Attack Caster",4.03
+113,"Astral Harpoon",4.03
+114,"Awaken Treelord",4.03
+115,"Acashic Record",4.03
+116,"Swallow",4.03
+117,"Alchemize Gems",4.03
+118,"Blood Feast",4.03
+119,"Send Lady Midday",4.03
+120,"Release Imprisoned Ones",4.03
+500,"Dehydrate",4.03
+504,"Resist Element",4.03
+509,"Protect against Element",4.03
+514,"Resist Poison",4.03
+524,"Resist Poison",4.04
+599,"Immunity against Element (?)",4.03
+600,"Horror Mark (Type I)",4.03
+601,"Horror Mark (Type II)",4.03
+609,"Freeze Area",4.03

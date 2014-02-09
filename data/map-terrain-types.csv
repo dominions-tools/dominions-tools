@@ -1,0 +1,34 @@
+"bit_value","bit_name","dominions_version"
+0,"Plains",4.03
+1,"Small Province",4.03
+2,"Large Province",4.03
+4,"Sea",4.03
+8,"Freshwater",4.03
+16,"Mountains",4.03
+32,"Swamp",4.03
+64,"Waste",4.03
+128,"Forest",4.03
+256,"Farm",4.03
+512,"Invalid Starting Position",4.03
+1024,"Many Magic Sites",4.03
+2048,"Deep Sea",4.03
+4096,"Cave",4.03
+8192,"<Unknown Terrain Type>",4.03
+16384,"<Unknown Terrain Type>",4.03
+32768,"<Unknown Terrain Type>",4.03
+65536,"<Unknown Terrain Type>",4.03
+131072,"<Unknown Terrain Type>",4.03
+262144,"<Unknown Terrain Type>",4.03
+524288,"<Unknown Terrain Type>",4.03
+1048576,"<Unknown Terrain Type>",4.03
+2097152,"<Unknown Terrain Type>",4.03
+4194304,"Border Mountains",4.03
+8388608,"<Reserved Terrain Type>",4.03
+16777216,"Recommended Throne Position",4.03
+33554432,"Recommended Starting Position",4.03
+67108864,"<Unknown Terrain Type>",4.03
+134217728,"<Unknown Terrain Type>",4.03
+268435456,"<Unknown Terrain Type>",4.03
+536870912,"<Unknown Terrain Type>",4.03
+1073741824,"<Unknown Terrain Type>",4.03
+2147483648,"<Unknown Terrain Type>",4.03

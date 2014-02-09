@@ -1,0 +1,64 @@
+"bit_value","bit_name","dominions_version"
+"1","Adds Strength of Wielder (?) {Wpn: not #nostr}",4.03
+"2","Requires Two Hands {Wpn: #twohanded}",4.03
+"4","+2 Attack vs Shields {Wpn: #flail}",4.03
+"8","Affects Demons Only {Wpn: #demononly}",4.03
+"16","Affects Magic Beings Only",4.03
+"32","Heat/Fire {Wpn: #fire}",4.03
+"64","Armor Piercing {Wpn: #armorpiercing}",4.03
+"128","Armor Negating {Wpn: #armornegating}",4.03
+"256","<Unknown Modifier>",4.03
+"512","Chill/Cold {Wpn: #cold}",4.03
+"1024","<Unknown Modifier>",4.03
+"2048","Shock {Wpn: #shock}",4.03
+"4096","Magic Resistance Negates {Wpn: #mrnegates}",4.03
+"8192","Poison",4.03
+"16384","Ignores Shields",4.03
+"32768","Affects Sacreds Only {Wpn: #sacredonly}",4.03
+"65536","Affects Air Breathers Only (?)",4.03
+"131072","No Effect on Mindless {Wpn: #mind}",4.03
+"262144","Affects Enemies Only {Wpn: #friendlyimmune}",4.03
+"524288","No Effect on Undead {Wpn: #undeadimmune}",4.03
+"1048576","No Effect on Fliers/Floaters (?) {Wpn: #flyingimmune}",4.03
+"2097152","Hard to Hit Ethereal (?) {Wpn: not #magic}",4.03
+"4194304","Affects Friendlies Only {Wpn: #enemyimmune}",4.03
+"8388608","May Use Underwater",4.03
+"16777216","Magic Resistance Negates Easily {Wpn: #mrnegateseasily}",4.03
+"33554432","Use Underwater Only",4.03
+"67108864","Affects Undead Only {Wpn: #undeadonly}",4.03
+"134217728","Intrinsic Weapon {Wpn: #bonus}",4.03
+"268435456","Range-Limited Ritual (?)",4.03
+"536870912","Affects Health (?)",4.03
+"1073741824","Bloodletting (?)",4.03
+"2147483648","Damage Bonus on 1st Attack {Wpn: #charge}",4.03
+"4294967296","<Unknown Modifier>",4.03
+"8589934592","<Unknown Modifier>",4.03
+"17179869184","<Unknown Modifier>",4.03
+"34359738368","<Unknown Modifier>",4.03
+"68719476736","<Unknown Modifier>",4.03
+"137438953472","Cannot Be Repelled (?) {Wpn: #unrepel}",4.03
+"274877906944","Piercing Damage {Wpn: #pierce}",4.03
+"549755813888","Bludgeoning Damage {Wpn: #blunt}",4.03
+"1099511627776","Slashing Damage {Wpn: #slash}",4.03
+"2199023255552","Acid Damage {Wpn: #acid}",4.03
+"4398046511104","Affects according to Target Size {Wpn: #sizeresist}",4.03
+"8796093022208","<Unknown Modifier>",4.03
+"17592186044416","<Unknown Modifier>",4.03
+"35184372088832","<Unknown Modifier>",4.03
+"70368744177664","Affects Lower Limbs (?)",4.03
+"140737488355328","No Effect on Constructs",4.03
+"281474976710656","Affects Animals Only",4.03
+"562949953421312","<Unknown Modifier>",4.03
+"1125899906842624","Ritual of Five Gates (?)",4.03
+"2251799813685248","<Unknown Modifier>",4.03
+"4503599627370496","<Unknown Modifier>",4.03
+"9007199254740992","Ranged Special Attack (?)",4.03
+"18014398509481984","<Unknown Modifier>",4.03
+"36028797018963968","<Unknown Modifier>",4.03
+"72057594037927936","<Unknown Modifier>",4.03
+"144115188075855872","<Unknown Modifier>",4.03
+"288230376151711744","<Unknown Modifier>",4.03
+"576460752303423488","<Unknown Modifier>",4.03
+"1152921504606846976","<Unknown Modifier>",4.03
+"2305843009213693952","<Unknown Modifier>",4.03
+"4611686018427387904","<Unknown Modifier>",4.03

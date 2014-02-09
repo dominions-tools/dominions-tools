@@ -1,0 +1,117 @@
+#!/usr/bin/env python
+
+###############################################################################
+#                                dominions                                    #
+#-----------------------------------------------------------------------------#
+#                                                                             #
+#   Licensed under the Apache License, Version 2.0 (the "License");           #
+#   you may not use this file except in compliance with the License.          #
+#   You may obtain a copy of the License at                                   #
+#                                                                             #
+#       http://www.apache.org/licenses/LICENSE-2.0                            #
+#                                                                             #
+#   Unless required by applicable law or agreed to in writing, software       #
+#   distributed under the License is distributed on an "AS IS" BASIS,         #
+#   WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.  #
+#   See the License for the specific language governing permissions and       #
+#   limitations under the License.                                            #
+#                                                                             #
+###############################################################################
+
+"""
+    Extract all relevant data from a Dominions executable and dump into a
+    database for further processing.
+"""
+
+
+__docformat__ = "reStructuredText"
+
+
+import sys              as _sys
+
+import os
+from os.path import (
+    extsep                  as _path_extsep,
+    curdir                  as _path_curdir,
+    join                    as _path_join,
+    exists                  as _path_exists,
+    isdir                   as _path_is_directory,
+    dirname                 as _path_dirname,
+)
+
+import argparse         as _argparse
+
+from sqlalchemy import (
+    create_engine           as _SQLA_create_engine,
+)
+
+from dominions.utils import (
+    PrettyFormatConfig      as _PrettyFormatConfig,
+)
+from dominions.DominionsData import (
+    DominionsData           as _DominionsData,
+)
+
+
+if "__main__" == __name__:
+    
+    rc = 0
+
+    clargs_parser = _argparse.ArgumentParser(
+        description = \
+        """Dumps information baked into a Dominions game executable."""
+    )
+    clargs_parser.add_argument(
+        "-I", "--input-directory-path", metavar = "DIRECTORY", type = str,
+        default = _path_join( _path_dirname( _sys.argv[ 0 ] ), "data"),
+    )
+    clargs_parser.add_argument(
+        "-O", "--output-directory-path", metavar = "DIRECTORY", type = str,
+        default = _path_curdir,
+    )
+    clargs_parser.add_argument(
+        "dominions_program_path", metavar = "FILE", type = str, 
+    )
+
+    clargs = clargs_parser.parse_args( )
+
+    output_directory_path = clargs.output_directory_path
+    if not _path_exists( output_directory_path ):
+        os.mkdir( output_directory_path, 0o700 )
+    else:
+        if not _path_is_directory( output_directory_path ):
+            raise IOError( "Not a directory: {0}".format(
+                output_directory_path
+            ) )
+        if not os.access( output_directory_path, os.R_OK | os.W_OK | os.X_OK ):
+            raise IOError( "Could not access directory: {0}".format(
+                output_directory_path
+            ) )
+    input_directory_path = clargs.input_directory_path
+    if not os.access( input_directory_path, os.R_OK | os.X_OK ):
+        raise IOError( "Could not access directory: {0}".format(
+            input_directory_path
+        ) )
+    dominions_program_path = clargs.dominions_program_path
+
+    pformat_config = _PrettyFormatConfig( )
+
+    dominions_data = _DominionsData.from_program_and_data_files(
+        dominions_program_path, input_directory_path
+    )
+    # TODO: Control kinds of output from command line arguments.
+    dominions_data.pprint(
+        output_directory_path, pformat_config = pformat_config
+    )
+    # TEMP: Hardwire to SQLite3 database.
+    db_engine = _SQLA_create_engine( "sqlite:///{0}".format( _path_join(
+        output_directory_path,
+        "Dominions" + _path_extsep + "sqlite"
+    ) ), echo = False )
+    dominions_data.persist_in_database( db_engine )
+
+    raise SystemExit( rc )
+
+
+###############################################################################
+# vim: set ft=python ts=4 sts=4 sw=4 et tw=79:                                #

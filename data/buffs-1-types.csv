@@ -1,0 +1,64 @@
+bit_value,bit_name,dominions_version
+1,Blessing,4.03
+2,Luck,4.03
+4,Improved Precision,4.03
+8,Air Shield,4.03
+16,Barkskin,4.03
+32,Regeneration,4.03
+64,Toughened Armor,4.03
+128,Extra Strength,4.03
+256,Berserk Rage,4.03
+512,Pain Transfer,4.03
+1024,Fire Resistance,4.03
+2048,Shock Resistance,4.03
+4096,Cold Resistance,4.03
+8192,Cold Aura,4.03
+16384,Heat Aura,4.03
+32768,Courage,4.03
+65536,Stoneskin,4.03
+131072,Flight,4.03
+262144,Quickness,4.03
+524288,Armor Piercing Weapons,4.03
+1048576,"Astral Weapon (?, Dominions 3)",4.03
+2097152,Reanimation,4.03
+4194304,Holy Vengeance,4.03
+8388608,Flaming Arrows,4.03
+16777216,Poison Resistance,4.03
+33554432,"Prophet (?, Dominions 3)",4.03
+67108864,Magic Resistance,4.03
+134217728,Etherealness,4.03
+268435456,Ironskin,4.03
+536870912,Communion Master,4.03
+1073741824,Communion Slave,4.03
+2147483648,Enlargement,4.03
+4294967296,<Unknown>,4.03
+8589934592,<Unknown>,4.03
+17179869184,<Unknown>,4.03
+34359738368,<Unknown>,4.03
+68719476736,Bludgeoning Resistance (?),4.03
+137438953472,Slashing Resistance (?),4.03
+274877906944,Piercing Resistance,4.03
+549755813888,Automatic Shield - Every Other Attack Blocked,4.03
+1099511627776,<Unknown>,4.03
+2199023255552,Liquid Body (?),4.03
+4398046511104,<Unknown>,4.03
+8796093022208,<Unknown>,4.03
+17592186044416,<Unknown>,4.03
+35184372088832,<Unknown>,4.03
+70368744177664,<Unknown>,4.03
+140737488355328,<Unknown>,4.03
+281474976710656,<Unknown>,4.03
+562949953421312,<Unknown>,4.03
+1125899906842624,<Unknown>,4.03
+2251799813685248,<Unknown>,4.03
+4503599627370496,<Unknown>,4.03
+9007199254740992,<Unknown>,4.03
+18014398509481984,<Unknown>,4.03
+36028797018963968,<Unknown>,4.03
+72057594037927936,<Unknown>,4.03
+144115188075855872,<Unknown>,4.03
+288230376151711744,<Unknown>,4.03
+576460752303423488,<Unknown>,4.03
+1152921504606846976,<Unknown>,4.03
+2305843009213693952,<Unknown>,4.03
+4611686018427387904,<Unknown>,4.03
