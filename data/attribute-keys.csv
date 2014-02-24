@@ -5,7 +5,7 @@
 43,"<Unknown Attribute>",4.03
 46,"<Unknown Attribute>",4.03
 47,"<Unknown Attribute>",4.03
-52,"<Unknown Attribute>",4.03
+52,"Capital Magic Site {Ntn: #startsite}",4.03
 59,"<Unknown Attribute>",4.03
 69,"<Unknown Attribute>",4.03
 73,"<Unknown Attribute>",4.03
@@ -27,7 +27,7 @@
 93,"<Unknown Attribute>",4.03
 94,"<Unknown Attribute>",4.03
 95,"<Unknown Attribute>",4.03
-100,"<Unknown Attribute>",4.03
+100,"Capital Magic Site (Unholy?) {Ntn: #startsite}",4.03
 122,"<Unknown Attribute>",4.03
 123,"<Unknown Attribute>",4.03
 124,"<Unknown Attribute>",4.03
@@ -41,21 +41,22 @@
 136,"<Unknown Attribute>",4.03
 137,"<Unknown Attribute>",4.03
 138,"<Unknown Attribute>",4.03
-139,"<Unknown Attribute>",4.03
-140,"<Unknown Attribute>",4.03
-141,"<Unknown Attribute>",4.03
-142,"<Unknown Attribute>",4.03
-143,"<Unknown Attribute>",4.03
-144,"<Unknown Attribute>",4.03
-145,"<Unknown Attribute>",4.03
+139,"National Unique Hero {Ntn: #hero1}",4.03
+140,"National Unique Hero {Ntn: #hero2}",4.03
+141,"National Unique Hero {Ntn: #hero3}",4.03
+142,"National Unique Hero {Ntn: #hero4}",4.03
+143,"National Unique Hero {Ntn: #hero5}",4.03
+144,"National Unique Hero {Ntn: #hero6}",4.03
+145,"National Generic Hero {Ntn: #multihero1}",4.03
+146,"National Generic Hero {Ntn: #multihero2}",4.03
 156,"<Unknown Attribute>",4.03
 157,"<Unknown Attribute>",4.03
-158,"<Unknown Attribute>",4.03
-159,"<Unknown Attribute>",4.03
-160,"<Unknown Attribute>",4.03
-161,"<Unknown Attribute>",4.03
-162,"<Unknown Attribute>",4.03
-163,"<Unknown Attribute>",4.03
+158,"Coastal Fort Commander {Ntn: #coastcom1}",4.03
+159,"Coastal Fort Commander {Ntn: #coastcom2}",4.03
+160,"Coastal Fort Troop {Ntn: #coastunit1}",4.03
+161,"Coastal Fort Troop {Ntn: #coastunit2}",4.03
+162,"Coastal Fort Troop {Ntn: #coastunit3}",4.03
+163,"Non-Coastal Land Troop",4.03
 167,"<Unknown Attribute>",4.03
 168,"<Unknown Attribute>",4.03
 169,"<Unknown Attribute>",4.03
@@ -71,12 +72,12 @@
 179,"<Unknown Attribute>",4.03
 180,"<Unknown Attribute>",4.03
 185,"<Unknown Attribute>",4.03
-186,"<Unknown Attribute>",4.03
-187,"<Unknown Attribute>",4.03
-188,"<Unknown Attribute>",4.03
-189,"<Unknown Attribute>",4.03
-190,"<Unknown Attribute>",4.03
-191,"<Unknown Attribute>",4.03
+186,"Underwater Fort Commander {Ntn: #uwcom?}",4.03
+187,"Underwater Fort Commander {Ntn: #uwcom?}",4.03
+188,"Underwater Fort Commander {Ntn: #uwcom?}",4.03
+189,"Underwater Fort Troop {Ntn: #uwunit?}",4.03
+190,"Underwater Fort Troop {Ntn: #uwunit?}",4.03
+191,"Underwater Fort Troop {Ntn: #uwunit?}",4.03
 193,"<Unknown Attribute>",4.03
 194,"<Unknown Attribute>",4.03
 195,"<Unknown Attribute>",4.03
@@ -114,18 +115,19 @@
 280,"<Unknown Attribute>",4.03
 287,"<Unknown Attribute>",4.03
 288,"<Unknown Attribute>",4.03
-289,"<Unknown Attribute>",4.03
+289,"Home Realm {Ntn: #homerealm}",4.03
 290,"<Unknown Attribute>",4.03
 293,"<Unknown Attribute>",4.03
-294,"<Unknown Attribute>",4.03
-295,"<Unknown Attribute>",4.03
-296,"<Unknown Attribute>",4.03
-297,"<Unknown Attribute>",4.03
-298,"<Unknown Attribute>",4.03
-299,"<Unknown Attribute>",4.03
-300,"<Unknown Attribute>",4.03
-302,"<Unknown Attribute>",4.03
-303,"<Unknown Attribute>",4.03
+294,"Terrain-Specific Recruit: Forest {Ntn: #forestrec}",4.03
+295,"Terrain-Specific Commander: Forest {Ntn: #forestcom}",4.03
+296,"Terrain-Specific Recruit: Swamp {Ntn: #swamprec}",4.03
+297,"Terrain-Specific Commander: Swamp {Ntn: #swampcom}",4.03
+298,"Terrain-Specific Recruit: Mountain {Ntn: #mountainrec}",4.03
+299,"Terrain-Specific Commander: Mountain {Ntn: #mountaincom}",4.03
+300,"Terrain-Specific Recruit: Waste {Ntn: #wasterec}",4.03
+301,"Terrain-Specific Commander: Waste {Ntn: #wastecom}",4.03
+302,"Terrain-Specific Recruit: Cave {Ntn: #caverec}",4.03
+303,"Terrain-Specific Commander: Cave {Ntn: #cavecom}",4.03
 304,"<Unknown Attribute>",4.03
 305,"<Unknown Attribute>",4.03
 306,"<Unknown Attribute>",4.03

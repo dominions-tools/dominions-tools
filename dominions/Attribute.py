@@ -89,7 +89,7 @@ ATTRIBUTES_BUILDER_DATA[ 47 ]      = _AttributesBuilderData(
     "AttributeValue_GenericValue"
 )
 ATTRIBUTES_BUILDER_DATA[ 52 ]      = _AttributesBuilderData(
-    "unknown_values", "<Unknown Attribute>",
+    "capital_magic_sites", "Capital Magic Site {Ntn: #startsite}",
     "AttributeValue_GenericValue"
 )
 ATTRIBUTES_BUILDER_DATA[ 59 ]      = _AttributesBuilderData(
@@ -177,7 +177,8 @@ ATTRIBUTES_BUILDER_DATA[ 95 ]      = _AttributesBuilderData(
     "AttributeValue_GenericValue"
 )
 ATTRIBUTES_BUILDER_DATA[ 100 ]      = _AttributesBuilderData(
-    "unknown_values", "<Unknown Attribute>",
+    "capital_magic_sites",
+    "Capital Magic Site (Unholy?) {Ntn: #startsite}",
     "AttributeValue_GenericValue"
 )
 ATTRIBUTES_BUILDER_DATA[ 122 ]      = _AttributesBuilderData(
@@ -233,32 +234,36 @@ ATTRIBUTES_BUILDER_DATA[ 138 ]      = _AttributesBuilderData(
     "AttributeValue_GenericValue"
 )
 ATTRIBUTES_BUILDER_DATA[ 139 ]      = _AttributesBuilderData(
-    "unknown_values", "<Unknown Attribute>",
-    "AttributeValue_GenericValue"
+    "unique_heroes", "National Unique Hero {Ntn: #hero1}",
+    "AttributeValue_Monster"
 )
 ATTRIBUTES_BUILDER_DATA[ 140 ]      = _AttributesBuilderData(
-    "unknown_values", "<Unknown Attribute>",
-    "AttributeValue_GenericValue"
+    "unique_heroes", "National Unique Hero {Ntn: #hero2}",
+    "AttributeValue_Monster"
 )
 ATTRIBUTES_BUILDER_DATA[ 141 ]      = _AttributesBuilderData(
-    "unknown_values", "<Unknown Attribute>",
-    "AttributeValue_GenericValue"
+    "unique_heroes", "National Unique Hero {Ntn: #hero3}",
+    "AttributeValue_Monster"
 )
 ATTRIBUTES_BUILDER_DATA[ 142 ]      = _AttributesBuilderData(
-    "unknown_values", "<Unknown Attribute>",
-    "AttributeValue_GenericValue"
+    "unique_heroes", "National Unique Hero {Ntn: #hero4}",
+    "AttributeValue_Monster"
 )
 ATTRIBUTES_BUILDER_DATA[ 143 ]      = _AttributesBuilderData(
-    "unknown_values", "<Unknown Attribute>",
-    "AttributeValue_GenericValue"
+    "unique_heroes", "National Unique Hero {Ntn: #hero5}",
+    "AttributeValue_Monster"
 )
 ATTRIBUTES_BUILDER_DATA[ 144 ]      = _AttributesBuilderData(
-    "unknown_values", "<Unknown Attribute>",
-    "AttributeValue_GenericValue"
+    "unique_heroes", "National Unique Hero {Ntn: #hero6}",
+    "AttributeValue_Monster"
 )
 ATTRIBUTES_BUILDER_DATA[ 145 ]      = _AttributesBuilderData(
-    "unknown_values", "<Unknown Attribute>",
-    "AttributeValue_GenericValue"
+    "generic_heroes", "National Generic Hero {Ntn: #multihero1}",
+    "AttributeValue_Monster"
+)
+ATTRIBUTES_BUILDER_DATA[ 146 ]      = _AttributesBuilderData(
+    "generic_heroes", "National Generic Hero {Ntn: #multihero2}",
+    "AttributeValue_Monster"
 )
 ATTRIBUTES_BUILDER_DATA[ 156 ]      = _AttributesBuilderData(
     "unknown_values", "<Unknown Attribute>",
@@ -269,24 +274,24 @@ ATTRIBUTES_BUILDER_DATA[ 157 ]      = _AttributesBuilderData(
     "AttributeValue_GenericValue"
 )
 ATTRIBUTES_BUILDER_DATA[ 158 ]      = _AttributesBuilderData(
-    "unknown_values", "<Unknown Attribute>",
-    "AttributeValue_GenericValue"
+    "recruitable_units", "Coastal Fort Commander {Ntn: #coastcom1}",
+    "AttributeValue_Monster"
 )
 ATTRIBUTES_BUILDER_DATA[ 159 ]      = _AttributesBuilderData(
-    "unknown_values", "<Unknown Attribute>",
-    "AttributeValue_GenericValue"
+    "recruitable_units", "Coastal Fort Commander {Ntn: #coastcom2}",
+    "AttributeValue_Monster"
 )
 ATTRIBUTES_BUILDER_DATA[ 160 ]      = _AttributesBuilderData(
-    "unknown_values", "<Unknown Attribute>",
-    "AttributeValue_GenericValue"
+    "recruitable_units", "Coastal Fort Troop {Ntn: #coastunit1}",
+    "AttributeValue_Monster"
 )
 ATTRIBUTES_BUILDER_DATA[ 161 ]      = _AttributesBuilderData(
-    "unknown_values", "<Unknown Attribute>",
-    "AttributeValue_GenericValue"
+    "recruitable_units", "Coastal Fort Troop {Ntn: #coastunit2}",
+    "AttributeValue_Monster"
 )
 ATTRIBUTES_BUILDER_DATA[ 162 ]      = _AttributesBuilderData(
-    "unknown_values", "<Unknown Attribute>",
-    "AttributeValue_GenericValue"
+    "recruitable_units", "Coastal Fort Troop {Ntn: #coastunit3}",
+    "AttributeValue_Monster"
 )
 ATTRIBUTES_BUILDER_DATA[ 163 ]      = _AttributesBuilderData(
     "unknown_values", "<Unknown Attribute>",
@@ -946,6 +951,47 @@ class AttributeValue_Nation( AttributeValue_BASE ):
 
         # TODO: Lookup nation name from nations table.
         return self.nation_number
+
+
+class AttributeValue_Monster( AttributeValue_BASE ):
+    """ A value of an attribute. """
+
+
+    __abstract__    = True
+
+
+    @classmethod
+    def _generated_SQLA_Table_columns( cls ):
+        """ Returns additional SQLAlchemy columns for a table mapping. """
+
+        # TODO: Add foreign key against monster table.
+        return [
+            _SQLA_Column( "monster_number", _SQLA_Integer ) 
+        ]
+
+
+    @classmethod
+    def from_raw_value( cls,
+        attribute_record_id, attribute_number, raw_value
+    ):
+        """ Creates an instance from a raw value. """
+
+        args = {
+            "attribute_record_id": attribute_record_id,
+            "attribute_number": attribute_number
+        }
+        args[ "monster_number" ] = raw_value
+
+        return cls( **args )
+
+
+    def _pformat_object( self,
+        tables, pformat_config = _PrettyFormatConfig( )
+    ):
+        """ Nicely formats the object for display. """
+
+        # TODO: Lookup monster name from monsters table.
+        return self.monster_number
 
 
 _BitmaskAssociationTableBuilderData \
